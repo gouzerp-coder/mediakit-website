@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studio Barnuevo — Renovation Architecture</title>
+    <meta name="description" content="Studio Barnuevo transforms spaces through thoughtful renovation. Architecture and interior design studio specializing in residential and commercial renewal.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>◼</text></svg>">
+</head>
+<body>
+
+    <!-- Loader -->
+    <div class="loader" id="loader">
+        <div class="loader-inner">
+            <span class="loader-text">Studio Barnuevo</span>
+            <div class="loader-bar"><div class="loader-progress"></div></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <header class="header" id="header">
+        <nav class="nav">
+            <a href="#" class="nav-logo">
+                <span class="logo-text">Studio<br>Barnuevo</span>
+            </a>
+            <div class="nav-links" id="navLinks">
+                <a href="#projects" class="nav-link" data-text="Projects">Projects</a>
+                <a href="#about" class="nav-link" data-text="Studio">Studio</a>
+                <a href="#approach" class="nav-link" data-text="Approach">Approach</a>
+                <a href="#contact" class="nav-link" data-text="Contact">Contact</a>
+            </div>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu" id="mobileMenu">
+        <div class="mobile-menu-inner">
+            <a href="#projects" class="mobile-link">Projects</a>
+            <a href="#about" class="mobile-link">Studio</a>
+            <a href="#approach" class="mobile-link">Approach</a>
+            <a href="#contact" class="mobile-link">Contact</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-media">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1920&q=80" alt="Modern renovated interior" class="hero-image">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-tag">Renovation Architecture</div>
+            <h1 class="hero-title">
+                <span class="title-line">Transforming</span>
+                <span class="title-line">spaces with</span>
+                <span class="title-line"><em>intention</em></span>
+            </h1>
+            <p class="hero-subtitle">We breathe new life into existing structures, honoring their history while reimagining their future.</p>
+        </div>
+        <div class="hero-scroll">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- Featured Project -->
+    <section class="featured" id="featured">
+        <div class="container">
+            <div class="section-label">Featured Project</div>
+            <div class="featured-grid">
+                <div class="featured-image reveal">
+                    <img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?w=1200&q=80" alt="Casa Lumina renovation">
+                    <div class="featured-image-overlay">
+                        <span>View Project</span>
+                    </div>
+                </div>
+                <div class="featured-info reveal">
+                    <span class="featured-year">2025</span>
+                    <h2 class="featured-title">Casa Lumina</h2>
+                    <p class="featured-desc">A 1960s brutalist residence transformed into a light-filled family home. The renovation preserved the building's bold geometric forms while introducing warm materials and expansive glazing.</p>
+                    <div class="featured-meta">
+                        <span>Residential</span>
+                        <span>Barcelona</span>
+                        <span>320 m²</span>
+                    </div>
+                    <a href="#" class="btn-arrow">
+                        Explore project
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">Selected Work</div>
+                <h2 class="section-title">Projects</h2>
+            </div>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="heritage">Heritage</button>
+            </div>
+            <div class="projects-grid">
+
+                <article class="project-card reveal" data-category="residential">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80" alt="Villa Serena" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Villa Serena</h3>
+                            <span class="project-card-meta">Residential — Madrid, 2024</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card reveal" data-category="commercial">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80" alt="Atelier Nómada" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Atelier Nómada</h3>
+                            <span class="project-card-meta">Commercial — Valencia, 2024</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card reveal" data-category="heritage">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1600585154526-990dced4db0d?w=800&q=80" alt="Palacio Renovado" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Palacio Renovado</h3>
+                            <span class="project-card-meta">Heritage — Seville, 2023</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card reveal" data-category="residential">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?w=800&q=80" alt="Loft Meridiano" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Loft Meridiano</h3>
+                            <span class="project-card-meta">Residential — Bilbao, 2023</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card reveal" data-category="commercial">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1604014237800-1c9102c219da?w=800&q=80" alt="Espacio Abierto" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Espacio Abierto</h3>
+                            <span class="project-card-meta">Commercial — Málaga, 2023</span>
+                        </div>
+                    </a>
+                </article>
+
+                <article class="project-card reveal" data-category="heritage">
+                    <a href="#" class="project-card-link">
+                        <div class="project-card-image">
+                            <img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?w=800&q=80" alt="Teatro Renacido" loading="lazy">
+                        </div>
+                        <div class="project-card-info">
+                            <h3>Teatro Renacido</h3>
+                            <span class="project-card-meta">Heritage — Granada, 2022</span>
+                        </div>
+                    </a>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Marquee -->
+    <section class="marquee-section">
+        <div class="marquee">
+            <div class="marquee-inner">
+                <span>Renovation</span>
+                <span class="marquee-dot"></span>
+                <span>Restoration</span>
+                <span class="marquee-dot"></span>
+                <span>Reimagination</span>
+                <span class="marquee-dot"></span>
+                <span>Renewal</span>
+                <span class="marquee-dot"></span>
+                <span>Renovation</span>
+                <span class="marquee-dot"></span>
+                <span>Restoration</span>
+                <span class="marquee-dot"></span>
+                <span>Reimagination</span>
+                <span class="marquee-dot"></span>
+                <span>Renewal</span>
+                <span class="marquee-dot"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-left reveal">
+                    <div class="section-label">About</div>
+                    <h2 class="section-title">The Studio</h2>
+                    <p class="about-lead">Founded with a singular belief: that every existing structure holds untapped potential waiting to be revealed.</p>
+                </div>
+                <div class="about-right reveal">
+                    <p>Studio Barnuevo is an architecture and design practice specializing in the transformation of existing spaces. Based in Spain, we work across residential, commercial, and heritage projects — each one a dialogue between what was and what could be.</p>
+                    <p>Our team of architects, designers, and craftspeople shares a deep respect for built heritage and an unwavering commitment to contemporary design excellence. We don't demolish the past; we build upon it.</p>
+                    <div class="about-stats">
+                        <div class="stat">
+                            <span class="stat-number" data-count="47">0</span>
+                            <span class="stat-label">Projects completed</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="12">0</span>
+                            <span class="stat-label">Years of practice</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-number" data-count="8">0</span>
+                            <span class="stat-label">Design awards</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Full-width Image Break -->
+    <section class="image-break">
+        <div class="image-break-inner reveal">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?w=1920&q=80" alt="Studio workspace" loading="lazy">
+        </div>
+    </section>
+
+    <!-- Approach -->
+    <section class="approach" id="approach">
+        <div class="container">
+            <div class="section-header">
+                <div class="section-label">How We Work</div>
+                <h2 class="section-title">Our Approach</h2>
+            </div>
+            <div class="approach-grid">
+                <div class="approach-step reveal">
+                    <span class="approach-number">01</span>
+                    <h3>Listen & Discover</h3>
+                    <p>Every project begins with deep listening — to the client, to the space, and to its history. We conduct thorough site analyses to understand the building's DNA before proposing any changes.</p>
+                </div>
+                <div class="approach-step reveal">
+                    <span class="approach-number">02</span>
+                    <h3>Envision & Design</h3>
+                    <p>We create a design narrative that bridges past and future. Through sketches, models, and 3D visualizations, we develop a shared vision that respects existing character while introducing contemporary clarity.</p>
+                </div>
+                <div class="approach-step reveal">
+                    <span class="approach-number">03</span>
+                    <h3>Craft & Build</h3>
+                    <p>Renovation demands exceptional craftsmanship. We work with trusted artisans and builders who share our dedication to quality, managing every detail from structural interventions to final finishes.</p>
+                </div>
+                <div class="approach-step reveal">
+                    <span class="approach-number">04</span>
+                    <h3>Reveal & Inhabit</h3>
+                    <p>The moment a transformed space is unveiled is why we do what we do. We ensure a seamless handover and remain available to support our clients as they begin their new chapter in the space.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonial -->
+    <section class="testimonial">
+        <div class="container">
+            <div class="testimonial-inner reveal">
+                <blockquote>
+                    <p>"Studio Barnuevo didn't just renovate our home — they uncovered a beauty we never knew existed within its walls. The transformation exceeded everything we imagined."</p>
+                    <footer>
+                        <cite>— María & Javier López, Casa Lumina</cite>
+                    </footer>
+                </blockquote>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-left reveal">
+                    <div class="section-label">Get in Touch</div>
+                    <h2 class="section-title">Let's start a<br>conversation</h2>
+                    <p>Have a space that deserves a new chapter? We'd love to hear about your project.</p>
+                    <div class="contact-details">
+                        <a href="mailto:hello@studiobarnuevo.com" class="contact-link">hello@studiobarnuevo.com</a>
+                        <a href="tel:+34912345678" class="contact-link">+34 912 345 678</a>
+                        <address>
+                            Calle de la Arquitectura, 15<br>
+                            28001 Madrid, Spain
+                        </address>
+                    </div>
+                </div>
+                <div class="contact-right reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required autocomplete="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required autocomplete="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="projectType">Project Type</label>
+                            <select id="projectType" name="projectType">
+                                <option value="" disabled selected>Select type</option>
+                                <option value="residential">Residential Renovation</option>
+                                <option value="commercial">Commercial Renovation</option>
+                                <option value="heritage">Heritage Restoration</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your project</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">
+                            Send Message
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="footer-logo">Studio Barnuevo</span>
+                    <p>Renovation architecture<br>since 2014</p>
+                </div>
+                <div class="footer-nav">
+                    <a href="#projects">Projects</a>
+                    <a href="#about">Studio</a>
+                    <a href="#approach">Approach</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-social">
+                    <a href="#" aria-label="Instagram">Instagram</a>
+                    <a href="#" aria-label="LinkedIn">LinkedIn</a>
+                    <a href="#" aria-label="Pinterest">Pinterest</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 Studio Barnuevo. All rights reserved.</span>
+                <span>Crafted with care</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
